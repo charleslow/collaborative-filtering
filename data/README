@@ -1,0 +1,5 @@
+Download the following data and put them into the respective folders:
+- ml-1m/
+	- https://files.grouplens.org/datasets/movielens/ml-1m.zip
+- ml-100k/
+	- https://files.grouplens.org/datasets/movielens/ml-100k.zip

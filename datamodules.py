@@ -66,7 +66,7 @@ class MFExhaustiveDataset(torch.utils.data.Dataset):
         user_batch = self.user_inner_ids[user_start_idx:user_end_idx]
         batch_R = self.R[user_batch, item_batch].toarray()
         batch_R = torch.tensor(batch_R, dtype=torch.float32)
-        return batch_R
+        return batch_R, user_batch, item_batch
 
 
 class MFDataModule(pl.LightningDataModule):
